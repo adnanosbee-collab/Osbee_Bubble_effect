@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OSBEE SOLUTIONS — Premium Dark Mode Effect
 
-## Getting Started
+A premium dark mode experience designed for the OSBEE SOLUTIONS website, featuring a deep midnight colour palette, refined gradients, elegant surfaces, and smooth visual transitions.
 
-First, run the development server:
+## Overview
+
+The dark mode effect transforms the website into a modern, premium interface while maintaining readability, visual hierarchy, and consistency throughout the website.
+
+The design uses:
+
+- Deep midnight and navy backgrounds.
+- Subtle blue and violet accent colours.
+- Refined gradient surfaces and cards.
+- Improved text contrast and readability.
+- Soft borders and layered visual depth.
+- A polished header with a subtle blur effect.
+- Consistent dark styling across website sections and components.
+
+## Key Features
+
+### 1. Theme Switching
+
+Users can switch between light mode and dark mode using the website's theme toggle.
+
+### 2. Theme Persistence
+
+The selected theme is saved in the browser's local storage using:
+
+`osbee-theme`
+
+This allows the website to remember the user's selected theme when they revisit the site.
+
+### 3. Premium Dark UI
+
+The dark interface uses a carefully selected colour palette to create a sophisticated appearance without relying on a flat black background.
+
+### 4. Gradient Surfaces
+
+Cards and interface elements use subtle gradients, borders, and background variations to create depth and separation.
+
+### 5. Consistent Components
+
+The dark theme is designed to work across the website, including:
+
+- Navigation header
+- Homepage sections
+- About page
+- Contact page
+- Contact form
+- Footer
+- Cards and interactive elements
+
+### 6. Beneath Reveal Cursor Effect
+
+The website also includes a custom white liquid-style Beneath Reveal cursor effect.
+
+Its visual characteristics include:
+
+- Organic, morphing liquid shape.
+- Fine grain texture.
+- Small detached droplets.
+- Fluid movement following the pointer.
+- Splash interaction on click.
+- Automatic fading after pointer inactivity.
+
+The cursor reveal is a separate visual effect from the dark mode theme.
+
+## Theme Implementation
+
+The theme is implemented using:
+
+| File | Purpose |
+|---|---|
+| `components/layout/Header.tsx` | Theme toggle and theme selection |
+| `app/globals.css` | Global styles and dark theme appearance |
+| `app/layout.tsx` | Global application layout |
+| `components/ui/BeneathReveal.tsx` | Liquid Beneath Reveal cursor effect |
+
+## Technology Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- CSS custom properties and selectors
+- Browser Local Storage
+
+## Running the Project
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`http://localhost:3000`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Customization
 
-## Learn More
+To customize the dark mode appearance, edit:
 
-To learn more about Next.js, take a look at the following resources:
+`app/globals.css`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To customize theme switching and persistence, edit:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`components/layout/Header.tsx`
 
-## Deploy on Vercel
+To customize the liquid cursor effect, edit:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`components/ui/BeneathReveal.tsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Repository
+
+[OSBEE SOLUTIONS — GitHub](https://github.com/adnanosbee-collab/Osbee_Bubble_effect)
+
+---
+
+**Designed and developed for OSBEE SOLUTIONS PRIVATE LIMITED.**
