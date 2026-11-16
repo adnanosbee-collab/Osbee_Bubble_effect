@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+node_modules/
+.next/
+out/
+dist/
+!.env.example
+*.key
+.vercel/
+
+# Local backups
+*.backup-*
+*.before-*
+*.water-flow-backup-*
+
+# Accidental empty files
+/next
+/osbee-solutions@0.1.0
